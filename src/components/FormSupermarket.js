@@ -211,7 +211,7 @@ export const FormSupermarket = () => {
             >
               <Upload
                 accept="image/*"
-                action={`${process.env.REACT_APP_API_URI}/file`}
+                action={`${process.env.REACT_APP_API_URI}file`}
                 onChange={onChange}
                 multiple={false}
                 name="logo"
